@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B141963A2AA541F00030D75A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B14196392AA541F00030D75A /* main.cpp */; };
+		B14196422AA5420A0030D75A /* DoubleLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B14196402AA5420A0030D75A /* DoubleLinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		B14196362AA541F00030D75A /* Parallel Primes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Parallel Primes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14196392AA541F00030D75A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B14196402AA5420A0030D75A /* DoubleLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleLinkedList.cpp; sourceTree = "<group>"; };
+		B14196412AA5420A0030D75A /* DoubleLinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DoubleLinkedList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				B14196392AA541F00030D75A /* main.cpp */,
+				B14196402AA5420A0030D75A /* DoubleLinkedList.cpp */,
+				B14196412AA5420A0030D75A /* DoubleLinkedList.hpp */,
 			);
 			path = "Parallel Primes";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B141963A2AA541F00030D75A /* main.cpp in Sources */,
+				B14196422AA5420A0030D75A /* DoubleLinkedList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
